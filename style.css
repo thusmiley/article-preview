@@ -7,7 +7,7 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   font-family: 'Manrope', sans-serif;
   font-size: 13px;
   background-color: #ecf2f8;
@@ -162,6 +162,10 @@ button:hover {
 }
 
 @media (max-width: 1000px) {
+  body {
+    height: 100%;
+    margin: auto;
+  }
   .container {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -11,7 +11,7 @@ $light-grayish-blue: hsl(210, 46%, 95%)
     padding: 0
 
 body
-    min-height: 100vh
+    height: 100vh
     font-family: 'Manrope', sans-serif
     font-size: 13px
     background-color: $light-grayish-blue
@@ -119,6 +119,9 @@ button:hover
     cursor: pointer
 
 @media (max-width: 1000px)    
+    body
+        height: 100%
+        margin: auto
     .container
         display: flex
         flex-direction: column
