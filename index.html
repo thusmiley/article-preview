@@ -7,10 +7,55 @@
     <meta property="og:title" content="Article preview" />
     <meta property="og:description" content="Article preview." />
     <meta property="og:image" content="./images/desktop-preview.jpg" />
-    <meta property="og:url" content="" />
-    <link rel="stylesheet" href="./images/favicon-32x32.png" />
+    <meta
+      property="og:url"
+      content="https://thusmiley.github.io/article-preview/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="./style.css" />
     <title>Article Preview</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <img src="./images/drawers.jpg" alt="drawers" />
+      <div class="wrapper">
+        <div class="article">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="footer">
+          <div class="author">
+            <img src="./images/avatar-michelle.jpg" alt="Michelle" />
+            <div class="info">
+              <p class="name">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="popup" id="popup">
+            <p>SHARE</p>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-pinterest fa-2x"></i>
+          </div>
+          <button onClick="showPopup()">
+            <img src="./images/icon-share.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
